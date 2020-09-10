@@ -1,0 +1,10 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/back_end/.vs/slnx.sqlite
+/back_end/*.suo
+/back_end/node_modules
+/front_end/node_modules
+node_modules
+/.vs/slnx.sqlite

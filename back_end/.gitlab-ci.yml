@@ -1,0 +1,12 @@
+stages:
+  - build-back
+  - build-front
+  
+back:
+  stage: build-back
+  image: node:latest
+  script:
+    - npm install
+    - node server.js
+  only:
+    - back-end
